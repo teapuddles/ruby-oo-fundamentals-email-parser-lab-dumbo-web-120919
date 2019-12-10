@@ -20,7 +20,6 @@ class EmailAddressParser
     @string_of_emails = string_of_emails
   end 
   def parse()
-    final_array = []
     @string_of_emails.split(" ")
      new_string = @string_of_emails.split(" ")
        result = new_string.map do |mail| 
